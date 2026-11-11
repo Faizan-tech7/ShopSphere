@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ShopSphere | Modern Ecommerce Store</title>
+
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap"
+        rel="stylesheet">
+
+    <link
+        rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+    <header>
+      <nav class="navbar">
+
+    <div class="logo">
+        <a href="index.html" class="logo-link">
+            <h2>ShopSphere</h2>
+        </a>
+    </div>
+
+    <ul class="nav-links">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="categories.html">Categories</a></li>
+        <li><a href="index.html#product">Products</a></li>
+        <li><a href="contact.html">Contact</a></li>
+    </ul>
+
+    <div class="nav-icons">
+
+        <div class="cart-icon">
+            <a href="cart.html">
+                <i class="fas fa-shopping-cart"></i>
+                <span id="cart-count">0</span>
+            </a>
+        </div>
+
+        <button id="theme-toggle" class="theme-toggle">
+            <i class="fas fa-moon"></i>
+        </button>
+
+    </div>
+
+</nav>
+    </header>
+
+    <section class="hero" id="home">
+
+        <div class="hero-content">
+            <h1>Discover The Latest Trends</h1>
+
+            <p>
+                Explore premium products, unbeatable prices,
+                and a seamless shopping experience.
+            </p>
+
+            <button class="shop-btn">
+                Shop Now
+            </button>
+        </div>
+
+    </section>
+
+    <section class="filter-section">
+
+        <div class="search-box">
+            <i class="fas fa-search"></i>
+
+            <input
+                type="text"
+                id="search-input"
+                placeholder="Search products..."
+            >
+        </div>
+
+        <div class="category-filter">
+
+            <button
+                class="filter-btn active"
+                data-category="all"
+            >
+                All
+            </button>
+
+            <button
+                class="filter-btn"
+                data-category="electronics"
+            >
+                Electronics
+            </button>
+
+            <button
+                class="filter-btn"
+                data-category="fashion"
+            >
+                Fashion
+            </button>
+
+            <button
+                class="filter-btn"
+                data-category="accessories"
+            >
+                Accessories
+            </button>
+
+        </div>
+
+    </section>
+
+    <section
+        class="products-section"
+        id="products"
+    >
+
+        <div class="section-title">
+            <h2>Featured Products</h2>
+            <p>Handpicked products just for you</p>
+        </div>
+
+        <div
+            class="product-grid"
+            id="product-grid"
+        >
+            <!-- Dynamic Products -->
+        </div>
+
+    </section>
+
+    <section class="newsletter">
+
+        <div class="newsletter-content">
+
+            <h2>Subscribe To Our Newsletter</h2>
+
+            <p>
+                Get updates on new arrivals,
+                discounts, and exclusive offers.
+            </p>
+
+            <form class="newsletter-form">
+
+                <input
+                    type="email"
+                    placeholder="Enter your email"
+                    required
+                >
+
+                <button type="submit">
+                    Subscribe
+                </button>
+
+            </form>
+
+        </div>
+
+    </section>
+
+    <footer>
+
+        <div class="footer-container">
+
+            <div class="footer-brand">
+
+                <h2>ShopSphere</h2>
+
+                <p>
+                    Your trusted online shopping destination
+                    for quality products and amazing deals.
+                </p>
+
+            </div>
+
+            <div class="footer-links">
+
+                <h3>Quick Links</h3>
+
+                <a href="#home">Home</a>
+                <a href="#product">Products</a>
+                <a href="cart.html">Cart</a>
+                <a href="contact.html">Contact</a>
+
+            </div>
+
+            <div class="footer-social">
+
+                <h3>Follow Us</h3>
+
+                <div class="social-icons">
+
+                    <a href="#">
+                        <i class="fab fa-facebook-f"></i>
+                    </a>
+
+                    <a href="#">
+                        <i class="fab fa-instagram"></i>
+                    </a>
+
+                    <a href="#">
+                        <i class="fab fa-twitter"></i>
+                    </a>
+
+                    <a href="#">
+                        <i class="fab fa-linkedin-in"></i>
+                    </a>
+
+                </div>
+
+            </div>
+
+        </div>
+
+        <div class="footer-bottom">
+            <p>&copy; 2026 ShopSphere. All Rights Reserved.</p>
+        </div>
+
+    </footer>
+
+    <script src="js/products.js"></script>
+    <script src="js/main.js"></script>
+    <script src="js/theme.js"></script>
+
+</body>
+</html>
