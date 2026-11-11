@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Product Details | ShopSphere</title>
+
+    <!-- Google Fonts -->
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap"
+        rel="stylesheet"
+    >
+
+    <!-- Font Awesome -->
+    <link
+        rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+    >
+
+    <!-- Main CSS -->
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+    <!-- ================= NAVBAR ================= -->
+
+    <header>
+        <nav class="navbar">
+
+            <div class="logo">
+                <a href="index.html" class="logo-link">
+                    <h2>ShopSphere</h2>
+                </a>
+            </div>
+
+            <ul class="nav-links">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="index.html#product">Products</a></li>
+                <li><a href="cart.html">Cart</a></li>
+            </ul>
+
+            <div class="nav-icons">
+                <a href="cart.html" class="cart-icon">
+                    <i class="fas fa-shopping-cart"></i>
+                    <span id="cart-count">0</span>
+                </a>
+            </div>
+
+        </nav>
+    </header>
+
+    <!-- ================= PRODUCT DETAILS ================= -->
+
+    <section class="product-page">
+
+        <div class="product-container">
+
+            <!-- Product Image -->
+
+            <div class="product-image">
+                <img
+                    id="product-image"
+                    src=""
+                    alt="Product Image"
+                >
+            </div>
+
+            <!-- Product Details -->
+
+            <div class="product-details">
+
+                <span
+                    class="product-category"
+                    id="product-category"
+                >
+                    Electronics
+                </span>
+
+                <h1 id="product-title">
+                    Product Name
+                </h1>
+
+                <div
+                    class="product-rating"
+                    id="product-rating"
+                >
+                    ⭐ 4.8
+                </div>
+
+                <h2
+                    class="product-price"
+                    id="product-price"
+                >
+                    ₹2999
+                </h2>
+
+                <p
+                    class="product-description"
+                    id="product-description"
+                >
+                    Product description will appear here.
+                </p>
+
+                <!-- Product Features -->
+
+                <div class="product-features">
+
+                    <div class="feature">
+                        <i class="fas fa-shipping-fast"></i>
+                        <span>Free Shipping</span>
+                    </div>
+
+                    <div class="feature">
+                        <i class="fas fa-undo"></i>
+                        <span>7 Days Return</span>
+                    </div>
+
+                    <div class="feature">
+                        <i class="fas fa-shield-alt"></i>
+                        <span>Secure Payment</span>
+                    </div>
+
+                </div>
+
+                <!-- Product Actions -->
+
+                <div class="product-actions">
+
+                    <button
+                        class="add-cart-btn"
+                        id="add-to-cart-btn"
+                    >
+                        <i class="fas fa-cart-plus"></i>
+                        Add To Cart
+                    </button>
+
+                    <button class="buy-now-btn">
+                        Buy Now
+                    </button>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- ================= RELATED PRODUCTS ================= -->
+
+    <section class="products-section">
+
+        <div class="section-title">
+            <h2>Related Products</h2>
+            <p>You may also like</p>
+        </div>
+
+        <div
+            class="product-grid"
+            id="related-products"
+        >
+            <!-- Related Products Loaded Dynamically -->
+        </div>
+
+    </section>
+
+    <!-- ================= FOOTER ================= -->
+
+    <footer>
+
+        <div class="footer-container">
+
+            <div class="footer-brand">
+
+                <h2>ShopSphere</h2>
+
+                <p>
+                    Premium online shopping experience with
+                    quality products and secure checkout.
+                </p>
+
+            </div>
+
+            <div class="footer-links">
+
+                <h3>Quick Links</h3>
+
+                <a href="index.html">Home</a>
+                <a href="index.html#product">Products</a>
+                <a href="cart.html">Cart</a>
+
+            </div>
+
+            <div class="footer-social">
+
+                <h3>Follow Us</h3>
+
+                <div class="social-icons">
+
+                    <a href="#">
+                        <i class="fab fa-facebook-f"></i>
+                    </a>
+
+                    <a href="#">
+                        <i class="fab fa-instagram"></i>
+                    </a>
+
+                    <a href="#">
+                        <i class="fab fa-twitter"></i>
+                    </a>
+
+                    <a href="#">
+                        <i class="fab fa-linkedin-in"></i>
+                    </a>
+
+                </div>
+
+            </div>
+
+        </div>
+
+        <div class="footer-bottom">
+            <p>&copy; 2026 ShopSphere. All Rights Reserved.</p>
+        </div>
+
+    </footer>
+
+    <!-- JavaScript Files -->
+
+    <script src="js/products.js"></script>
+    <script src="js/product.js"></script>
+    <script src="js/theme.js"></script>
+
+</body>
+</html>
